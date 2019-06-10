@@ -1,10 +1,16 @@
 import React from "react";
-import GoogleMapReact from "google-map-react";
 import MapSection from "./MapSection";
+import MenuItem from "./MenuItem";
 import "./pm-styles.scss";
 
 const parallaxImage = background => {
   return <div className={`parallaxSection parallax ${background}`} />;
+};
+
+const menuExample = {
+  name: "Botanas",
+  disc:
+    "A sampler of our delicious home-style specialties (4) fajita bean & cheese nachos (4) chicken flautas (4) fajita quesadillas & chile con queso dip. Served w/ guacamole, sour cream & pico de gallo."
 };
 
 export default function LandingPage(props) {
@@ -12,7 +18,7 @@ export default function LandingPage(props) {
     <div className="parallaxWrapper">
       {parallaxImage("bg1")}
       <div className="parallaxSection static">
-        <h1>Boring</h1>
+        <MenuItem item={menuExample} />
       </div>
       {parallaxImage("bg2")}
       <div className="parallaxSection menuContainer">

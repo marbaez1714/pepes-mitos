@@ -1,0 +1,30 @@
+@import "./pm-styles.scss";
+
+.menuItemContainer {
+  display: flex;
+  flex-direction: column;
+  text-shadow: none;
+  padding: 10px;
+  background-color: $light;
+  color: $dark;
+  border-radius: 8px;
+  .menuItemDisc {
+    padding-left: 20px;
+    pointer-events: none;
+    transform-origin: top center;
+    transform: scaleY(0.2);
+    opacity: 0;
+    transition: all 100ms cubic-bezier(0.1, 0.92, 0.64, 1.37);
+    &.active {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  .menuItemName {
+    font-family: "Fugaz One", cursive;
+    font-size: $fontSize5;
+    .menuItem {
+      margin-right: 8px;
+    }
+  }
+}
