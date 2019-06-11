@@ -1,0 +1,58 @@
+@import "./pm-styles.scss";
+
+$menu-yellow: #ffed46;
+$menu-orange: #f58021;
+$menu-green: #9ecf7c;
+$menu-teal: #00ac89;
+$menu-blue: #5bc6cc;
+$menu-red: #ef373e;
+$menu-pink: #f06098;
+
+.menuContainer {
+  text-shadow: none;
+  color: black;
+  box-shadow: none;
+}
+.menuHeader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: wrap;
+  font-size: $fontSize5;
+  .menuSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 25vw;
+    height: 50px;
+    &.active {
+      box-shadow: inset 0px 0px 18px $dark;
+    }
+  }
+}
+.appetizers {
+  background: $menu-yellow;
+}
+.soupsSalads {
+  background: $menu-blue;
+}
+.houseSpecials {
+  background: $menu-orange;
+}
+.mexTex {
+  background: $menu-teal;
+}
+.brunch {
+  background: $menu-red;
+}
+.signatureTacos {
+  background: $menu-green;
+}
+.lunchSpecials {
+  background: $menu-yellow;
+}
+.other {
+  background: $menu-pink;
+}
