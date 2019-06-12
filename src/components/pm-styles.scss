@@ -71,7 +71,7 @@ $orange: #f58021;
   justify-content: center;
   color: $light;
   text-shadow: 0 0 5px #000;
-  box-shadow: inset 0px 0px 18px #072269;
+  box-shadow: inset 0px 0px 5px $dark;
   &.parallax {
     height: 40vh;
   }
@@ -81,7 +81,6 @@ $orange: #f58021;
     background: $dark;
     flex-direction: column;
     align-items: baseline;
-    box-shadow: inset 0px 0px 18px $dark;
     .blueCorner {
       height: 40px;
       width: 40px;
