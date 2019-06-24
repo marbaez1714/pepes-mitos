@@ -1,0 +1,136 @@
+$yellow: #f8ed45;
+$blue: #5bc6cc;
+$orange: #f07f22;
+$green: #43ac88;
+$red: #ee373e;
+$green-light: #9ecf7c;
+$pink: #f06098;
+$dark: #4a4a4a;
+$brown: #382626;
+$gradient: linear-gradient(100deg, rgba(255, 255, 255, 0%) 0%, rgba(0, 0, 0, 0.15) 100%);
+
+.menu {
+  background: #6f6f6f;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+}
+.menuItemWrapper {
+  font-family: Crete Round;
+  text-align: center;
+  .menuItem {
+    height: 75px;
+    position: relative;
+    color: #382626;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Crete Round;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    .menuTitle {
+      margin-left: 50px;
+      transition: all 450ms cubic-bezier(0.82, 0.41, 0.34, 1);
+    }
+    &.open {
+      .menuTitle {
+        margin-left: 20px;
+      }
+    }
+    &.yellow {
+      background: $gradient, $yellow;
+      .menuContent {
+        .name {
+          background: $yellow;
+        }
+      }
+    }
+    &.blue {
+      background: $gradient, $blue;
+    }
+    &.orange {
+      background: $gradient, $orange;
+    }
+    &.green {
+      background: $gradient, $green;
+    }
+    &.red {
+      background: $gradient, $red;
+    }
+    &.green-light {
+      background: $gradient, $green-light;
+    }
+    &.pink {
+      background: $gradient, $pink;
+    }
+  }
+  .menuContent {
+    height: 0;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    width: calc(100vw - 40px);
+    background-color: #f6f3ea;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 450ms cubic-bezier(0.82, 0.41, 0.34, 1);
+    .lunch {
+      margin-bottom: 0;
+    }
+    .lunchTime {
+      margin-top: 0;
+      color: rgba(0, 0, 0, 0.75);
+    }
+    .lunchRule {
+      margin: 0;
+      color: rgba(0, 0, 0, 0.5);
+    }
+    .food {
+      .name {
+        margin: 10px 0;
+        font-size: 24px;
+        text-align: left;
+      }
+      .dddFeature {
+        color: $orange;
+        font-style: italic;
+        font-size: 20px;
+        text-align: left;
+        margin-top: -10px;
+        margin-bottom: 10px;
+      }
+      .detailWrapper {
+        &.ddd {
+          display: inline-flex;
+        }
+        .description {
+          color: rgba(0, 0, 0, 0.5);
+          font-size: 18px;
+          text-align: left;
+          margin: 0 0 10px 10px;
+          &.ddd {
+            width: 60%;
+          }
+        }
+        .options {
+          color: rgba(0, 0, 0, 0.75);
+          text-align: left;
+          padding-left: 25px;
+          margin: 0;
+          &.ddd {
+            width: 50%;
+          }
+        }
+        .guyHead {
+          height: 150px;
+          align-self: center;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+    &.open {
+      opacity: 1;
+      padding: 20px;
+      height: calc(100vh - 75px - 75px - 75px);
+    }
+  }
+}

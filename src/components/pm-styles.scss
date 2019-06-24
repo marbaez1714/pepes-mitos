@@ -12,7 +12,7 @@ $dark: #1f1a1e;
 $blue-light: #5bc6cc;
 $blue-dark: #072269;
 $orange: #f58021;
-
+$brown: #382626;
 .headerContainer {
   display: flex;
   position: fixed;
@@ -21,7 +21,7 @@ $orange: #f58021;
   height: 60px;
   color: $light;
   align-content: center;
-  background: $dark;
+  background: $brown;
   padding: 0 20px;
   z-index: 5;
 
@@ -40,13 +40,6 @@ $orange: #f58021;
   background: $dark;
   padding: 0 20px;
   z-index: 5;
-}
-.menuContainer {
-  height: 40vh;
-  padding: 20px;
-  background: $orange;
-  flex-direction: column;
-  align-items: baseline;
 }
 // credit to https://alligator.io/css/pure-css-parallax/ for the wonderful parallax effect
 .parallaxWrapper {

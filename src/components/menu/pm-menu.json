@@ -1,0 +1,311 @@
+{
+  "appetizers": [
+    {
+      "name": "Botanas",
+      "desc": "A sampler of our delicious home-style specialties 4x fajita bean & cheese nacho 4x chicken flautas 4x fajita quesadillas & chile con queso dip. Served with guacamole, sour cream & pico de gallo."
+    },
+    {
+      "name": "Pepe’s Shrimp Cocktail",
+      "desc": "Plump, juicy shrimp in a Mexican style cocktail sauce with fresh tomatoes, onions, chopped cilantro & avocado slices. Mild or Hot."
+    },
+    {
+      "name": "Quesadillas",
+      "desc": "Three flour tortillas loaded with Monterey Jack cheese, onions, tomatoes, poblano peppers & choice of our delicious fillings. Lightly grilled & served with guacamole, sour cream & pico de gallo.",
+      "options": [
+        "VEGGIE",
+        "AVACODO",
+        "SPINACH & MUSHROOM",
+        "SPICY SHRIMP",
+        "FAJITA (Beef, Chicken, or Both)"
+      ]
+    },
+    {
+      "name": "Nachos",
+      "desc": "Tortilla chips topped with mixed cheeses, jalapeño peppers & your choice of toppings. Served with guacamole & sour cream.",
+      "options": ["CHEESE", "BEAN", "TACO", "BEAN & CHORIZO", "FAJITA & BEAN"]
+    },
+    {
+      "name": "Fried Taquitos",
+      "desc": "Three old-fashion style tacos fried then stuffed with lettuce, tomatoes & cheese.",
+      "options": ["BEEF", "CHICKEN"]
+    },
+    {
+      "name": "Guacamole",
+      "desc": "Served over shredded lettuce & topped with diced tomatoes."
+    },
+    {
+      "name": "Chile Con Queso",
+      "desc": "Option to add Spinach or Beef Taco Mix."
+    }
+  ],
+  "soups": [
+    {
+      "name": "Blackened Chicken Salad ",
+      "desc": "Mixed greens topped with blackened chicken & mango pico dressing."
+    },
+    {
+      "name": "Fajita Salad",
+      "desc": "Mixed greens loaded with your choice of our delicious fajita meat (Beef, Chicken or Both), cheese, tomato slices, guacamole, sour cream & pico de gallo."
+    },
+    {
+      "name": "Taco Salad",
+      "desc": "Mixed greens topped with your choice of taco meat, cheese, charra beans, tomatoes, sour cream & crispy tortilla strips."
+    },
+    {
+      "name": "Tortilla Soup",
+      "desc": "Fresh vegetables in a delicious broth with Mexican rice, seasoned chicken, tortilla strips & Monterey Jack cheese.",
+      "options": ["Add Avocado!"]
+    },
+    {
+      "name": "Albondiga Soup",
+      "desc": "Omelet-like patties filled with a delicious mix of carrots, potatoes, onions, tomatoes, mild peppers & ground beef in a seasoned broth.",
+      "ddd": true
+    }
+  ],
+  "house": [
+    {
+      "name": "Sizzling Fajitas",
+      "desc": "Tender beef sirloin or chicken breast, charbroiled & served on a hot skillet over delicious grilled onions. Served with rice, beans, guacamole, sour cream, pico de gallo & flour tortillas.",
+      "options": ["Add sautéed mushrooms, jack cheese & green bell peppers."]
+    },
+    {
+      "name": "Chipotle Shrimp",
+      "desc": "Six juicy shrimp charbroiled, topped with our chipotle wine sauce. Served with sautéed vegetables, rice & charra beans."
+    },
+    {
+      "name": "Vegetable Fajitas",
+      "desc": "A vegetable version of sizzling fajitas with sautéed mushrooms, carrots, chayote squash, potatoes & fresh tomato slices. Served with rice, beans, guacamole, sour cream, pico de gallo & tortillas."
+    },
+    {
+      "name": "Rib Eye En Salsa Ranchera",
+      "desc": "(10 oz.) rib eye steak charbroiled & topped with a delicious mild ranchero sauce served with Mexican rice, charra beans, guacamole, pico de gallo & flour tortillas."
+    },
+    {
+      "name": "Beef Guiso",
+      "desc": "Tender beef tips sautéed with onions, potatoes & mild peppers, in a delicious authentic Mexican stewed tomato sauce. Served with Mexican rice, refried beans & flour tortillas."
+    },
+    {
+      "name": "Pollo Al Chipotle",
+      "desc": "Charbroiled chicken breast topped with our delicious spicy chipotle wine sauce. Served with rice, charra beans, grilled veggies & salad."
+    },
+    {
+      "name": "Pescado Veracruz",
+      "desc": "Catfish fillet lightly breaded & fried to a crisp, topped with a celery-based salsa Veracruz & served with rice, charra beans & salad."
+    },
+    {
+      "name": "Shrimp Enchiladas",
+      "desc": "Two flour tortillas stuffed with seasoned shrimp & Monterey Jack cheese. Topped with our delicious sour cream sauce & cheese. Served with rice, charra beans & salad."
+    },
+    {
+      "name": "Shrimp Fajitas",
+      "desc": "Eight shrimp charbroiled, then served over sautéed vegetables & grilled onions. Topped with our delicious mojo de ajo butter, accompanied with rice, beans, guacamole, pico de gallo & flour tortillas."
+    },
+    {
+      "name": "Carne Al Chipotle",
+      "desc": "Tender sirloin steak charbroiled, topped with our delicious spicy chipotle wine sauce. Served with rice, charra beans, grilled veggies & salad."
+    },
+    {
+      "name": "Pollo Al Mojo De Ajo",
+      "desc": "(Garlic Lovers Favorite) Charbroiled chicken breast sautéed in a delicious garlic cilantro butter served over a bed of rice with charra beans, guacamole, sour cream & flour tortillas."
+    },
+    {
+      "name": "Rib Eye A La Tampiqueña",
+      "desc": "(10 oz.) rib eye steak charbroiled. Served with rice, charra beans, guacamole, pico de gallo & a chipotle cheese enchilada."
+    }
+  ],
+  "mexTex": [
+    {
+      "name": "Combination Dinners",
+      "desc": "All combinations are served with rice & refried beans.",
+      "title": true
+    },
+    {
+      "name": "#1 Combo",
+      "desc": "One cheese enchilada & one crispy taco (Beef or Chicken)."
+    },
+    {
+      "name": "#2 Combo",
+      "desc": "One chicken enchilada & one fajita taco (Beef or Chicken)."
+    },
+    {
+      "name": "#3 Combo",
+      "desc": "One cheese enchilada, one beef enchilada & one pork tamale."
+    },
+    {
+      "name": "#4 Combo",
+      "desc": "One chicken enchilada, one pork tamale & one spinach enchilada."
+    },
+    {
+      "name": "#5 Combo",
+      "desc": "One fajita taco (Beef or Chicken,) one cheese enchilada & one pork tamale."
+    },
+    {
+      "name": "#6 Combo",
+      "desc": "Two crispy tacos (Beef, Chicken, or Both.)"
+    }
+  ],
+  "brunch": [
+    {
+      "name": "Migas Con Huevo",
+      "desc": "A mixture of eggs, tortilla strips, tomatoes, onions & ranchero sauce. Served with refried beans."
+    },
+    {
+      "name": "Papas Con Huevo",
+      "desc": "Scrambled eggs with potatoes, onions & tomatoes. Served with beans & flour tortillas."
+    },
+    {
+      "name": "Chilaquiles",
+      "desc": "Fried corn tortilla triangles, chorizo, pico de gallo & eggs. Served with beans."
+    },
+    {
+      "name": "Chorizo Con Huevo",
+      "desc": "Scrambled eggs with chorizo, onions & tomatoes. Served with beans & flour tortillas."
+    },
+    {
+      "name": "Brunch Tacos",
+      "desc": "Two flour tortillas filled with scrambled eggs, shredded cheese, onions, tomatoes & your choice of beef fajita, chicken fajita, chorizo or potatoes. Served with refried beans & Mexican potatoes."
+    },
+    {
+      "name": "Brunch Quesadillas",
+      "desc": "Three flour tortillas filled with mixed cheese, onions, tomatoes & scrambled eggs. Served with sour cream & pico de gallo.",
+      "options": ["Add fajita (Beef, Chicken, or Both)."]
+    },
+    {
+      "name": "Huevos Rancheros",
+      "desc": "Three eggs to order topped with ranchero sauce. Served with refried beans & flour tortillas."
+    }
+  ],
+  "tacos": [
+    {
+      "name": "Tacos Al Carbon",
+      "desc": "Two large flour tortillas stuffed with rib eye strips, sautéed with onions & poblano peppers. Served with rice, beans, guacamole, sour cream & pico de gallo."
+    },
+    {
+      "name": "Tacos Norteños",
+      "desc": "Four mini corn tortilla tacos loaded with fajita steak. Sautéed with pico de gallo & our chipotle wine sauce. Served with rice, beans, chopped cilantro & onions.",
+      "ddd": true
+    },
+    {
+      "name": "Tacos Al Pastor",
+      "desc": "Four mini corn tortillas loaded with your choice of pork or chicken sautéed with our pineapple cascabel sauce. Served with rice."
+    },
+    {
+      "name": "Pork Carnita Tacos",
+      "desc": "Three flour tortillas stuffed with braised pork, sautéed with onions & poblano peppers. Served with rice, beans, pico de gallo & our chipotle wine sauce."
+    },
+    {
+      "name": "Street Style Carnita Tacos",
+      "desc": "Four mini corn tortillas topped with braised pork carnita, tomatillo sauce & queso fresco. Served with rice, beans, chopped cilantro & onions."
+    }
+  ],
+  "lunch": [
+    {
+      "name": "#1 Enchiladas",
+      "desc": "Two enchiladas (Beef, Cheese, Chicken, or Spinach)."
+    },
+    {
+      "name": "#2 Crispy Tacos",
+      "desc": "Two crispy tacos (Beef, Chicken, or Both)."
+    },
+    {
+      "name": "#3 Tamales",
+      "desc": "Two homemade pork tamales topped with tomatillo sauce."
+    },
+    {
+      "name": "#4 Fajita Tacos",
+      "desc": "Two flour tacos loaded with fajita meat, lettuce, tomatoes & shredded cheese (Beef, Chicken, or Both)."
+    },
+    {
+      "name": "#5 Tostadas",
+      "desc": "Two tostadas topped with lettuce, tomatoes, & shredded cheese (Beef, Chicken, or Bean)."
+    },
+    {
+      "name": "#6 Enchiladas En Mole",
+      "desc": "Two enchiladas topped with our mole poblano sauce (Chicken or Cheese)."
+    },
+    {
+      "name": "#7 Chipotle Enchiladas",
+      "desc": "Two enchiladas topped with our chipotle wine sauce (Chicken or Cheese)."
+    },
+    {
+      "name": "#8 Chicken Enchilada",
+      "desc": "One chicken enchilada & one fajita taco (Beef or Chicken)."
+    },
+    {
+      "name": "#9 Cheese Enchilada",
+      "desc": "One cheese enchilada & one crispy taco (Beef or Chicken)."
+    },
+    {
+      "name": "#10 Beef & Cheese Enchilada Fajita Taco",
+      "desc": "One beef enchilada, one cheese enchilada & one crispy taco (Beef or Chicken)."
+    },
+    {
+      "name": "#11 Spinach Enchilada & Guacamole Soft Taco",
+      "desc": "One spinach enchilada & one guacamole soft taco."
+    },
+    {
+      "name": "#12 Pescado Veracruz",
+      "desc": "Farm-raised catfish lightly breaded.Topped with a celery-based salsa. Served with charra beans & rice."
+    },
+    {
+      "name": "#13 Sizzling Fajitas",
+      "desc": "Beef, chicken or both. Served with flour tortillas, pico de gallo, guacamole & sour cream.",
+      "options": ["Make it top shelf - Add mushrooms, jack cheese & green bell peppers"]
+    },
+    {
+      "name": "#14 Carne Al Chipotle",
+      "desc": "Your choice of chicken or beef topped with our chipotle wine sauce. Served with charra beans, rice & grilled veggies."
+    },
+    {
+      "name": "#15 Chimichanga",
+      "desc": "One chimichanga (Beef or Chicken) topped with your choice of ranchero or queso sauce & served with guacamole & sour cream."
+    },
+    {
+      "name": "#16 Pork Carnita Tacos",
+      "desc": "Two flour tortillas stuffed with braised pork, sautéed with onions & poblano peppers. Served with rice, beans, pico de gallo & our chipotle wine sauce."
+    }
+  ],
+  "kids": [
+    {
+      "name": "Soft Flour Taco",
+      "options": ["BEEF", "CHICKEN"]
+    },
+    {
+      "name": "Burrito",
+      "options": ["BEAN", "BEEF", "CHICKEN"]
+    },
+    {
+      "name": "Crispy Taco",
+      "options": ["BEEF", "CHICKEN"]
+    },
+    {
+      "name": "Enchilada",
+      "options": ["CHEESE", "BEEF", "CHICKEN"]
+    },
+    {
+      "name": "Cheese Quesadilla"
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Homemade Sopapillias"
+    },
+    {
+      "name": "Tres Leches Cake"
+    },
+    {
+      "name": "Ice Cream Scoop"
+    },
+    {
+      "name": "Mexican Bread Pudding",
+      "options": ["Add ice cream!"]
+    },
+    {
+      "name": "Flan"
+    },
+    {
+      "name": "Ice Tea & Coffee",
+      "options": ["Serving pepsi products"]
+    }
+  ]
+}

@@ -6,8 +6,8 @@
     "google-map-react": "^1.1.4",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
+    "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
-    "react-hamburger-menu": "^1.1.1",
     "react-scripts": "3.0.1"
   },
   "scripts": {

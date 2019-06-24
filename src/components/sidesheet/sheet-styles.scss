@@ -1,0 +1,11 @@
+$dark: #4a4a4a;
+
+.overlay {
+  background: $dark;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.5;
+}
