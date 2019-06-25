@@ -1,11 +1,70 @@
 $dark: #4a4a4a;
+$light: #f6f3ea;
+$brown: #382626;
+$blue: #5bc6cc;
 
 .overlay {
-  background: $dark;
+  background: rgba(74, 74, 74, 0.5);
   position: fixed;
-  top: 0;
+  top: 60px;
   left: 0;
   height: 100vh;
   width: 100vw;
-  opacity: 0.5;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 250ms ease-in;
+  .sheetContainer {
+    color: white;
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: $blue;
+    pointer-events: auto;
+    transform: translateX(300px);
+    transition: all 250ms ease-in;
+    .closeButton {
+      position: absolute;
+      font-size: 24px;
+      top: 10px;
+      right: 20px;
+      height: 40px;
+      background: none;
+      border: none;
+      i {
+        color: white;
+        transform: rotate(0deg);
+        transition: all 50ms ease-in;
+      }
+      &:active {
+        i {
+          transform: rotate(45deg);
+          color: #1b383a;
+        }
+      }
+    }
+    .sideOptions {
+      font-family: Crete Round;
+      margin-top: 10px;
+      padding-left: 0px;
+      font-size: 35px;
+      list-style: none;
+      font-weight: bold;
+      li {
+        padding-left: 20px;
+        line-height: 40px;
+        &:hover {
+          background: #1b383a;
+        }
+      }
+    }
+  }
+  &.open {
+    opacity: 1;
+    .sheetContainer {
+      transform: translateX(0px);
+    }
+  }
 }

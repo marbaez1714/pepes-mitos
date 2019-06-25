@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="pm-site">
       <Header />
-      <Sidesheet />
+      <Sidesheet open />
       <Menu />
       {/* <LandingPage /> */}
     </div>
