@@ -1,19 +1,24 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./sheet-styles.scss";
+import { Link } from "react-router-dom";
+import "./Sidesheet.scss";
 
 function SideSheetContent(props) {
-  const { open } = props;
+  const { open, handleClose } = props;
 
   return (
     <div className={`overlay ${open ? "open" : ""}`}>
       <div className="sheetContainer">
-        <button className="closeButton">
+        <button className="closeButton" onClick={handleClose}>
           <i class="fas fa-times" />
         </button>
         <ul className="sideOptions">
-          <li>Home</li>
-          <li>Menu</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/menu/">Menu</Link>
+          </li>
           <li>About Us</li>
           <li>Tour</li>
           <li>Contact Us</li>

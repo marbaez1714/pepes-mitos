@@ -1,8 +1,4 @@
-$dark: #4a4a4a;
-$light: #f6f3ea;
-$brown: #382626;
-$blue: #5bc6cc;
-
+@import "../SharedStyles.scss";
 .overlay {
   background: rgba(74, 74, 74, 0.5);
   position: fixed;

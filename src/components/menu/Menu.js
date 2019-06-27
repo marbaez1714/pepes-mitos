@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import menu from "./pm-menu.json";
 import guyHead from "../../images/guyhead.png";
-import "./menu-styles.scss";
+import "./Menu.scss";
 
 const guyStamp = <img className="guyHead" src={guyHead} alt="Guy Stamp" />;
 const guyFeature = <p className="dddFeature">Featured on Guy's Triple D</p>;

@@ -13,25 +13,7 @@ $blue-light: #5bc6cc;
 $blue-dark: #072269;
 $orange: #f58021;
 $brown: #382626;
-.headerContainer {
-  display: flex;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 60px;
-  color: $light;
-  align-content: center;
-  background: $brown;
-  padding: 0 20px;
-  z-index: 5;
 
-  .headerTitle {
-    font-family: "Fugaz One", cursive;
-    display: inline-flex;
-    align-items: center;
-    font-size: $fontSize7;
-  }
-}
 .footerContainer {
   width: 100%;
   height: 60px;

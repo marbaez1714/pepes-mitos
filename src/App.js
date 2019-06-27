@@ -1,18 +1,23 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/Header";
+import LandingPage from "./components/LandingPage";
 import Menu from "./components/menu/Menu";
-import Sidesheet from "./components/sidesheet/Sidesheet";
-import Footer from "./components/Footer";
 import "./App.scss";
 
 function App() {
   return (
-    <div className="pm-site">
-      <Header />
-      <Sidesheet open />
-      <Menu />
-      {/* <LandingPage /> */}
-    </div>
+    <Router>
+      <div className="pm-site">
+        <Header />
+        <Switch>
+          <Route path="/" exact component={LandingPage} />
+          <Route path="/menu/" component={Menu} />
+        </Switch>
+
+        {/* <LandingPage /> */}
+      </div>
+    </Router>
   );
 }
 
