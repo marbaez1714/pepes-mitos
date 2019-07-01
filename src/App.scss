@@ -8,4 +8,10 @@ html {
   height: 100%;
   width: 100%;
   margin-top: 60px;
+  transform: translatex(0px);
+  transition: all 250ms ease-in;
+
+  &.sheetOpen {
+    transform: translateX(-250px);
+  }
 }

@@ -4,7 +4,15 @@ import { Link } from "react-router-dom";
 import "./Sidesheet.scss";
 
 function SideSheetContent(props) {
-  const { open, handleClose } = props;
+  const { open, handleClose, location, handleChange } = props;
+
+  const links = [
+    { path: "/", title: "Home" },
+    { path: "/menu/", title: "Menu" },
+    { path: "/about/", title: "About Us" },
+    { path: "/tour/", title: "Tour" },
+    { path: "/contact/", title: "Contact Us" }
+  ];
 
   return (
     <div className={`overlay ${open ? "open" : ""}`}>
@@ -13,16 +21,16 @@ function SideSheetContent(props) {
           <i class="fas fa-times" />
         </button>
         <ul className="sideOptions">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/menu/">Menu</Link>
-          </li>
-          <li>About Us</li>
-          <li>Tour</li>
-          <li>Contact Us</li>
-          <li>About Us</li>
+          {links.map(link => (
+            <li
+              key={link.path + link.title}
+              className={`sheetLink ${location === link.path ? "current" : ""}`}
+            >
+              <Link to={link.path} onClick={() => handleChange(link.path)}>
+                {link.title}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     </div>

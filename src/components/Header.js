@@ -1,18 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import Sidesheet from "./sidesheet/Sidesheet";
 import "./Header.scss";
 
 export default function Header(props) {
-  const [sheetOpen, setSheetOpen] = useState(false);
-  const toggleSheet = () => setSheetOpen(!sheetOpen);
+  const { open, handleOpen, location, handleChange } = props;
 
   return (
-    <header className={`headerContainer ${sheetOpen ? "sheetOpen" : ""}`}>
+    <header className={`headerContainer ${open ? "sheetOpen" : ""}`}>
       <span className="headerTitle">Pepe's & Mito's</span>
-      <button onClick={toggleSheet} className="sidesheetButton">
+      <button onClick={handleOpen} className="sidesheetButton">
         <i class="fas fa-bars" />
       </button>
-      <Sidesheet open={sheetOpen} handleClose={toggleSheet} />
+      <Sidesheet
+        open={open}
+        handleClose={handleOpen}
+        location={location}
+        handleChange={handleChange}
+      />
     </header>
   );
 }

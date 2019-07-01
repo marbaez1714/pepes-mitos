@@ -43,7 +43,7 @@
     }
     .sideOptions {
       font-family: Crete Round;
-      margin-top: 10px;
+      margin-top: 50px;
       padding-left: 0px;
       font-size: 35px;
       list-style: none;
@@ -51,7 +51,11 @@
       li {
         padding-left: 20px;
         line-height: 40px;
-        &:hover {
+        a {
+          text-decoration: none;
+          color: white;
+        }
+        &.current {
           background: #1b383a;
         }
       }
