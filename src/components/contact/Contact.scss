@@ -1,0 +1,36 @@
+@import "../SharedStyles.scss";
+
+.contact-page {
+  position: relative;
+}
+.filter {
+  position: absolute;
+  background: $dark;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  background-image: url("../../images/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.contact-info {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $light;
+  margin: 20px;
+  padding: 20px;
+}
