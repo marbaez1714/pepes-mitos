@@ -10,14 +10,16 @@
   align-content: center;
   background: $brown;
   z-index: 5;
+  box-shadow: inset 0px 0px 5px $dark;
 
   .headerTitle {
-    font-family: "Fugaz One", cursive;
+    font-family: "Recoleta-Bold";
     margin-left: 20px;
     display: inline-flex;
     align-items: center;
     font-size: $fontSize7;
     transition: all 250ms ease-in;
+
   }
   .sidesheetButton {
     color: $light;

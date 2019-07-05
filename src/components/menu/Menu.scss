@@ -6,14 +6,14 @@
   height: 100vh;
 }
 .menuItemWrapper {
-  font-family: Crete Round;
+  font-family: "Recoleta";
   text-align: center;
   .menuItem {
     height: 75px;
     position: relative;
     color: #382626;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Crete Round;
+    font-family: "Recoleta-Bold";
     font-size: 24px;
     display: flex;
     align-items: center;
@@ -76,7 +76,8 @@
     }
     .food {
       .name {
-        margin: 10px 0;
+        font-family: "Recoleta-Bold";
+        margin: 10px 0 0 0;
         font-size: 24px;
         text-align: left;
       }
@@ -85,8 +86,7 @@
         font-style: italic;
         font-size: 20px;
         text-align: left;
-        margin-top: -10px;
-        margin-bottom: 10px;
+        margin: 0;
       }
       .detailWrapper {
         &.ddd {
