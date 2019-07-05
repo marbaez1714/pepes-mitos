@@ -49,7 +49,7 @@ export default function Contact(props) {
         <div>2911 Elm Street, Dallas, Texas 75226</div>
         <div className="map-wrapper">
           <GoogleMapReact
-            bootstrapURLKeys={{ key: "AIzaSyA8bBGIaExp9QIJKSBA-hddWgnR2QTlvOQ" }}
+            bootstrapURLKeys={{ key: "" }}
             defaultCenter={center}
             defaultZoom={17}
           >
