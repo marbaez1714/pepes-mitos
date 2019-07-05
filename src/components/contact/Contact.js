@@ -1,13 +1,33 @@
 import React from "react";
 import "./Contact.scss";
 import GoogleMapReact from "google-map-react";
+
+
+
+const BlueCorner = ({position}) =>{
+  return(
+    <div className={`blueCorner ${position}`}>
+      <svg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'>
+        <g fill="#5bc6cc" pointerEvents='none'>
+          <rect x='79' width='41' height='40' />
+          <rect y='79' width='40' height='41' />
+          <rect width='80' height='80' />
+          <rect y='119' width='20' height='21' />
+          <rect x='119' width='21' height='20' />
+        </g>
+      </svg>
+    </div>
+  )
+}
+
+
 const PhoneNumber = <a href="tel:214-741-1901">214-741-1901</a>;
 
 export default function Contact(props) {
   const API_KEY = process.env.REACT_APP_MAP_API_KEY;
   const center = {
-    lat: 32.785069,
-    lng: -96.7819108
+    lat: 32.7850889,
+    lng: -96.7819163,
   };
   return (
     <div className="contact-page">
@@ -29,56 +49,22 @@ export default function Contact(props) {
         <div>2911 Elm Street, Dallas, Texas 75226</div>
         <div className="map-wrapper">
           <GoogleMapReact
-            bootstrapURLKeys={{ key: API_KEY }}
+            bootstrapURLKeys={{ key: "AIzaSyA8bBGIaExp9QIJKSBA-hddWgnR2QTlvOQ" }}
             defaultCenter={center}
             defaultZoom={17}
-          />
-        </div>
+          >
+            <div
+              lat={center.lat}
+              lng={center.lng}
+              text="location"
+              className="pm-badge" />
 
-        <div className="blueCorner top left">
-          <svg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'>
-            <g fill="#5bc6cc" pointerEvents='none'>
-              <rect x='79' width='41' height='40' />
-              <rect y='79' width='40' height='41' />
-              <rect width='80' height='80' />
-              <rect y='119' width='20' height='21' />
-              <rect x='119' width='21' height='20' />
-            </g>
-          </svg>
+          </GoogleMapReact>
         </div>
-        <div className="blueCorner bottom right">
-          <svg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'>
-            <g fill="#5bc6cc" pointerEvents='none'>
-              <rect x='79' width='41' height='40' />
-              <rect y='79' width='40' height='41' />
-              <rect width='80' height='80' />
-              <rect y='119' width='20' height='21' />
-              <rect x='119' width='21' height='20' />
-            </g>
-          </svg>
-        </div>
-        <div className="blueCorner bottom left">
-          <svg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'>
-            <g fill="#5bc6cc" pointerEvents='none'>
-              <rect x='79' width='41' height='40' />
-              <rect y='79' width='40' height='41' />
-              <rect width='80' height='80' />
-              <rect y='119' width='20' height='21' />
-              <rect x='119' width='21' height='20' />
-            </g>
-          </svg>
-        </div>
-        <div className="blueCorner top right">
-          <svg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'>
-            <g fill="#5bc6cc" pointerEvents='none'>
-              <rect x='79' width='41' height='40' />
-              <rect y='79' width='40' height='41' />
-              <rect width='80' height='80' />
-              <rect y='119' width='20' height='21' />
-              <rect x='119' width='21' height='20' />
-            </g>
-          </svg>
-        </div>
+        <BlueCorner position="top left" />
+        <BlueCorner position="top right" />
+        <BlueCorner position="bottom left" />
+        <BlueCorner position="bottom right" />
 
       </div>
     </div>
