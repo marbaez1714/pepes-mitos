@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.scss";
 import GoogleMapReact from "google-map-react";
+import pmBadge from '../../images/pm.png'
 
 
 
@@ -29,6 +30,17 @@ export default function Contact(props) {
     lat: 32.7850889,
     lng: -96.7819163,
   };
+  const handleApiLoaded = (map, maps) => {
+    // use map and maps objects
+    let marker = new maps.Marker({position: center, map: map})
+    let infowindow = new  maps.InfoWindow({
+      content: "<p class='map-name'>Pepe's & Mito's</p><a class='map-address' href='https://goo.gl/maps/pEJBpcGrtMF4rEic8'>2911 Elm St, Dallas, TX 75226</a>"
+    });
+    marker.addListener('click', function() {
+      infowindow.open(map, marker);
+    });
+  };
+
   return (
     <div className="contact-page">
       <div className="background" />
@@ -49,17 +61,12 @@ export default function Contact(props) {
         <div>2911 Elm Street, Dallas, Texas 75226</div>
         <div className="map-wrapper">
           <GoogleMapReact
-            bootstrapURLKeys={{ key: "" }}
+            bootstrapURLKeys={{ key: API_KEY }}
             defaultCenter={center}
             defaultZoom={17}
-          >
-            <div
-              lat={center.lat}
-              lng={center.lng}
-              text="location"
-              className="pm-badge" />
-
-          </GoogleMapReact>
+            yesIWantToUseGoogleMapApiInternals
+            onGoogleApiLoaded={({ map, maps }) => handleApiLoaded(map, maps)}
+         />
         </div>
         <BlueCorner position="top left" />
         <BlueCorner position="top right" />
