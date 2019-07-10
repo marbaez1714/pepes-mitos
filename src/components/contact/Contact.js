@@ -19,7 +19,7 @@ const BlueCorner = ({position}) =>{
     </div>
   )
 }
-
+const Pipe = <span className="section-pipe">||</span>
 
 const PhoneNumber = <a href="tel:214-741-1901">214-741-1901</a>;
 
@@ -40,10 +40,10 @@ export default function Contact(props) {
         <div className='section-title'>Catering & Events</div>
         <div>{PhoneNumber}</div>
         <div className='section-title'>Hours</div>
-        <div>Mon & Tue || 11am - 3pm</div>
-        <div>Wed & Thu || 11am - 10pm</div>
-        <div>Fri & Sat || 11am - 11pm</div>
-        <div>Sun || 11am - 5pm</div>
+        <div>Mon. & Tue. {Pipe} 11am - 3pm</div>
+        <div>Wed. & Thu. {Pipe} 11am - 10pm</div>
+        <div>Fri. & Sat. {Pipe} 11am - 11pm</div>
+        <div>Sun. {Pipe} 11am - 5pm</div>
         <div className='section-title'>Location</div>
         <div className="location">Deep in the heart of the historic Deep Ellum District</div>
         <div>2911 Elm Street, Dallas, Texas 75226</div>

@@ -25,8 +25,9 @@ function SideSheetContent(props) {
             <li
               key={link.path + link.title}
               className={`sheetLink ${location === link.path ? "current" : ""}`}
+              onClick={() => handleChange(link.path)}
             >
-              <Link to={link.path} onClick={() => handleChange(link.path)}>
+              <Link to={link.path} >
                 {link.title}
               </Link>
             </li>
