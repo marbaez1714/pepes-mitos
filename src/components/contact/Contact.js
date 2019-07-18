@@ -34,7 +34,7 @@ export default function Contact(props) {
     // use map and maps objects
     let marker = new maps.Marker({position: center, map: map})
     let infowindow = new  maps.InfoWindow({
-      content: "<p class='map-name'>Pepe's & Mito's</p><a class='map-address' href='https://goo.gl/maps/pEJBpcGrtMF4rEic8'>2911 Elm St, Dallas, TX 75226</a>"
+      content: "<p class='map-name'>Pepe's & Mito's</p><a class='map-address' href='https://goo.gl/maps/pEJBpcGrtMF4rEic8'>2911 Elm St</a>"
     });
     marker.addListener('click', function() {
       infowindow.open(map, marker);
@@ -57,8 +57,8 @@ export default function Contact(props) {
         <div>Fri. & Sat. {Pipe} 11am - 11pm</div>
         <div>Sun. {Pipe} 11am - 5pm</div>
         <div className='section-title'>Location</div>
-        <div className="location">Deep in the heart of the historic Deep Ellum District</div>
-        <div>2911 Elm Street, Dallas, Texas 75226</div>
+        <div className="location">Downtown Dallas, deep in the heart of the historic Deep Ellum District</div>
+        <a href='https://goo.gl/maps/pEJBpcGrtMF4rEic8'>2911 Elm Street, Dallas, Texas 75226</a>
         <div className="map-wrapper">
           <GoogleMapReact
             bootstrapURLKeys={{ key: API_KEY }}

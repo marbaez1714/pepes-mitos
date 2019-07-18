@@ -48,9 +48,15 @@
       font-size: 35px;
       list-style: none;
       font-weight: bold;
+      transition: all 50ms ease-in;
+
       li {
         padding-left: 20px;
         line-height: 40px;
+        background: transparent;
+        transition: all 50ms ease-in;
+
+
         a {
           text-decoration: none;
           color: white;
@@ -64,6 +70,7 @@
   }
   &.open {
     opacity: 1;
+    top:100px;
     .sheetContainer {
       transform: translateX(0px);
     }

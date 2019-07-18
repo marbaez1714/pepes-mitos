@@ -11,6 +11,8 @@
   background: $brown;
   z-index: 5;
   box-shadow: inset 0px 0px 5px $dark;
+  transition: all 250ms ease-in;
+
 
   .headerTitle {
     font-family: "Recoleta-Bold";
@@ -19,6 +21,7 @@
     align-items: center;
     font-size: $fontSize7;
     transition: all 250ms ease-in;
+    opacity: 1;
 
   }
   .sidesheetButton {
@@ -29,10 +32,32 @@
     margin-right: 20px;
     font-size: 24px;
   }
+  .pm-badge{
+    border: 2px solid black;
+    background-image: url("../images/pm.png");
+    border-radius: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80px;
+    width:80px;
+    align-self: center;
+    position:absolute;
+    left: 20px;
+    opacity: 0;
+    transition: all 250ms ease-in;
+
+  }
 
   &.sheetOpen {
+    height:100px;
     .headerTitle {
+      opacity: 0;
       font-size: $fontSize5;
     }
+    .pm-badge{
+      opacity: 1;
+    }
   }
+
 }

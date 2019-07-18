@@ -8,6 +8,7 @@ export default function Header(props) {
   return (
     <header className={`headerContainer ${open ? "sheetOpen" : ""}`}>
       <span className="headerTitle">Pepe's & Mito's</span>
+      <div className="pm-badge"/>
       <button onClick={handleOpen} className="sidesheetButton">
         <i class="fas fa-bars" />
       </button>
