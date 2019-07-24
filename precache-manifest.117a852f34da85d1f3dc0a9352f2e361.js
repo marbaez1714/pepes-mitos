@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dfcee0eae208a758448f331eef8cfa13",
+    "revision": "c066d1d2b443cab4d1665327f1bb2e66",
     "url": "/pepes-mitos/index.html"
   },
   {
