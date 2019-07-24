@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pepes-mitos/static/css/main.62e2581f.chunk.css",
+    "main.css": "/pepes-mitos/static/css/main.35c6a5ad.chunk.css",
     "main.js": "/pepes-mitos/static/js/main.e258b53a.chunk.js",
     "main.js.map": "/pepes-mitos/static/js/main.e258b53a.chunk.js.map",
     "runtime~main.js": "/pepes-mitos/static/js/runtime~main.1ccdb5af.js",
@@ -8,9 +8,9 @@
     "static/js/2.89d11881.chunk.js": "/pepes-mitos/static/js/2.89d11881.chunk.js",
     "static/js/2.89d11881.chunk.js.map": "/pepes-mitos/static/js/2.89d11881.chunk.js.map",
     "index.html": "/pepes-mitos/index.html",
-    "precache-manifest.674ad68aaea218137096d951a79d9539.js": "/pepes-mitos/precache-manifest.674ad68aaea218137096d951a79d9539.js",
+    "precache-manifest.3fabf009f0f91c740196de666547561a.js": "/pepes-mitos/precache-manifest.3fabf009f0f91c740196de666547561a.js",
     "service-worker.js": "/pepes-mitos/service-worker.js",
-    "static/css/main.62e2581f.chunk.css.map": "/pepes-mitos/static/css/main.62e2581f.chunk.css.map",
+    "static/css/main.35c6a5ad.chunk.css.map": "/pepes-mitos/static/css/main.35c6a5ad.chunk.css.map",
     "static/media/App.scss": "/pepes-mitos/static/media/RecoletaRegular.ac8f3b34.otf",
     "static/media/Contact.scss": "/pepes-mitos/static/media/background.b043e605.jpg",
     "static/media/LandingPage.scss": "/pepes-mitos/static/media/lined-paper-2.8fcc731b.png",
