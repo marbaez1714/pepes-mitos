@@ -134,8 +134,8 @@
 		font-family: "Recoleta-Bold";
 	}
 	.address{
-		text-decoration: none;
-		color:white;
+		text-decoration: underline;
+		color:$orange;
 	}
 	&:after{
 

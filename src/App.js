@@ -12,6 +12,10 @@ function App() {
   const [location, setLocation] = useState("/");
 
   const toggleSheet = () => setSheetOpen(!sheetOpen);
+  const handleChange = (page) =>{
+    setSheetOpen(!sheetOpen)
+    setLocation(page)
+  }
 
   return (
     <Router>
@@ -19,7 +23,7 @@ function App() {
         open={sheetOpen}
         handleOpen={toggleSheet}
         location={location}
-        handleChange={setLocation}
+        handleChange={handleChange}
       />
       <div className={`pm-site ${sheetOpen ? "sheetOpen" : ""}`}>
         <Switch>
