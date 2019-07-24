@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pepes-mitos/static/css/main.56053c6f.chunk.css",
+    "main.js": "/pepes-mitos/static/js/main.9700e4af.chunk.js",
+    "main.js.map": "/pepes-mitos/static/js/main.9700e4af.chunk.js.map",
+    "runtime~main.js": "/pepes-mitos/static/js/runtime~main.1ccdb5af.js",
+    "runtime~main.js.map": "/pepes-mitos/static/js/runtime~main.1ccdb5af.js.map",
+    "static/js/2.6c0b87de.chunk.js": "/pepes-mitos/static/js/2.6c0b87de.chunk.js",
+    "static/js/2.6c0b87de.chunk.js.map": "/pepes-mitos/static/js/2.6c0b87de.chunk.js.map",
+    "index.html": "/pepes-mitos/index.html",
+    "precache-manifest.45d755a3a64faabc1dc50be32fef0cff.js": "/pepes-mitos/precache-manifest.45d755a3a64faabc1dc50be32fef0cff.js",
+    "service-worker.js": "/pepes-mitos/service-worker.js",
+    "static/css/main.56053c6f.chunk.css.map": "/pepes-mitos/static/css/main.56053c6f.chunk.css.map",
+    "static/media/App.scss": "/pepes-mitos/static/media/RecoletaRegular.ac8f3b34.otf",
+    "static/media/Contact.scss": "/pepes-mitos/static/media/background.b043e605.jpg",
+    "static/media/LandingPage.scss": "/pepes-mitos/static/media/lined-paper-2.8fcc731b.png",
+    "static/media/Menu.scss": "/pepes-mitos/static/media/concrete-wall.0277c785.png",
+    "static/media/guyhead.png": "/pepes-mitos/static/media/guyhead.49e3c417.png",
+    "static/media/Header.scss": "/pepes-mitos/static/media/pm.20be1419.png"
+  }
+}
