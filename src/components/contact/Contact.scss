@@ -11,7 +11,7 @@
   position: absolute;
   background: $dark;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 60px);
   opacity: 0.5;
   z-index: 1;
 }
@@ -25,21 +25,26 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: calc(100vh - 60px);
 }
 
 .contact-info {
-  height: calc(100vh - 60px);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  background-image: url("../../images/brick-wall.png");
+  border-radius: 10px;
+  height: calc(100vh - 120px);
   overflow: scroll;
   position: absolute;
   z-index: 3;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: $light;
+  background-color: $light;
   margin: 20px;
   padding: 0 20px 20px 20px;
   width: calc(100% - 80px);
+  box-shadow: inset 0px 0px 5px;
   a{
     text-decoration: none;
     color:black;
@@ -50,9 +55,10 @@
   font-size: 40px;
   width: calc(100vw - 40px);
   line-height: 60px;
-  background: $gradient, $pink;
+  background-color:  $pink;
+  background-image:$gradient, url("../../images/brick-wall.png");
   color:white;
-  box-shadow: 0px 0px 5px $dark;
+  box-shadow: inset 0px 0px 5px $dark;
 
 }
 .section-title{
@@ -92,6 +98,8 @@
   border: 5px solid $blue;
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: 0px 0px 5px;
+
 }
 
 .top{

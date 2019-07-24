@@ -21,7 +21,7 @@ const lunchRules = (
 );
 
 const MenuItem = props => {
-  const { color, name, open, handleClick, menuSection } = props;
+  const { color, name, open, handleClick, menuSection} = props;
   return (
     <div className="menuItemWrapper">
       <div className={`menuItem ${color} ${open ? "open" : ""}`} onClick={handleClick}>
@@ -108,6 +108,7 @@ export default function Menu(props) {
         menuSection={menu.tacos}
         open={menuKey === "Signature"}
         handleClick={() => handleChange("Signature")}
+
       />
       <MenuItem
         color="yellow"
@@ -115,6 +116,7 @@ export default function Menu(props) {
         menuSection={menu.lunch}
         open={menuKey === "Lunch"}
         handleClick={() => handleChange("Lunch")}
+
       />
       <MenuItem
         color="blue"
@@ -122,6 +124,7 @@ export default function Menu(props) {
         menuSection={menu.kids}
         open={menuKey === "Kids"}
         handleClick={() => handleChange("Kids")}
+
       />
       <MenuItem
         color="pink"
@@ -129,6 +132,7 @@ export default function Menu(props) {
         menuSection={menu.desserts}
         open={menuKey === "Drinks"}
         handleClick={() => handleChange("Drinks")}
+
       />
     </div>
   );

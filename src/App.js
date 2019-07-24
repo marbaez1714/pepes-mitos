@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from "./components/Header";
-import LandingPage from "./components/LandingPage";
+import Header from "./components/header/Header";
+import LandingPage from "./components/landing/LandingPage";
+
 import Menu from "./components/menu/Menu";
 import Contact from "./components/contact/Contact";
 import "./App.scss";
