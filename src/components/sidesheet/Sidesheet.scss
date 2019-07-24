@@ -17,7 +17,8 @@
     position: fixed;
     right: 0;
     top: 0;
-    background: $blue;
+    background-color: $blue;
+    background-image: url("../../images/arches.png");
     pointer-events: auto;
     transform: translateX(300px);
     transition: all 250ms ease-in;

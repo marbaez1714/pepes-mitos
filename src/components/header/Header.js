@@ -1,5 +1,5 @@
 import React from "react";
-import Sidesheet from "./sidesheet/Sidesheet";
+import Sidesheet from "../sidesheet/Sidesheet";
 import "./Header.scss";
 
 export default function Header(props) {

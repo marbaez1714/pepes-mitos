@@ -297,11 +297,11 @@
       "name": "Ice Cream Scoop"
     },
     {
-      "name": "Mexican Bread Pudding",
-      "options": ["Add ice cream!"]
+      "name": "Flan"
     },
     {
-      "name": "Flan"
+      "name": "Mexican Bread Pudding",
+      "options": ["Add ice cream!"]
     },
     {
       "name": "Ice Tea & Coffee",
