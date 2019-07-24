@@ -51,6 +51,8 @@
 	overflow-x: hidden;
 	/* Enable scrolling on the page. */
 	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
 	/* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
 	perspective: 2px;
 }
