@@ -11,7 +11,7 @@
   .menuItem {
     height: 75px;
     position: relative;
-    color: black;
+    color: $brown;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: "Recoleta-Bold";
     font-size: 24px;
@@ -104,7 +104,7 @@
 
         }
         .options {
-          color: rgba(0, 0, 0, 0.75);
+          color: rgba(0, 0, 0, 0.5);
           text-align: left;
           padding-left: 25px;
           margin: 0;

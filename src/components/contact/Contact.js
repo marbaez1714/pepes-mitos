@@ -2,21 +2,6 @@ import React from "react";
 import "./Contact.scss";
 import GoogleMapReact from "google-map-react";
 
-const BlueCorner = ({position}) =>{
-  return(
-    <div className={`blueCorner ${position}`}>
-      <svg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'>
-        <g fill="#5bc6cc" pointerEvents='none'>
-          <rect x='79' width='41' height='40' />
-          <rect y='79' width='40' height='41' />
-          <rect width='80' height='80' />
-          <rect y='119' width='20' height='21' />
-          <rect x='119' width='21' height='20' />
-        </g>
-      </svg>
-    </div>
-  )
-}
 const Pipe = <span className="section-pipe">||</span>
 const PhoneNumber = <div><a href="tel:214-741-1901">214-741-1901</a></div>;
 const Hours = (

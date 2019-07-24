@@ -14,6 +14,7 @@
 	position: absolute;
 	top: 25vh;
 	z-index: 2;
+
 }
 .landingTitle{
 	font-family: "Recoleta-Bold";
@@ -31,27 +32,14 @@
 ;
 }
 
-.cactus{
-	background-image: url("../../images/cactus2.png");
-	background-size: contain;
-	background-repeat:no-repeat;
-	background-position: bottom left;
-	position: absolute;
-	height: 40vmax;
-	width: 40vmax;
-	left:10px;
-	bottom:0;
-}
-.lantern{
-	background-image: url("../../images/lanterns.png");
+
+.coaster{
+	background-image: url("../../images/coaster.png");
 	background-size: contain;
 	background-repeat:no-repeat;
 	background-position: top right;
-	position: absolute;
 	height: 20vmax;
 	width: 20vmax;
-	right:10px;
-	top:10px;
 }
 
 // credit to https://alligator.io/css/pure-css-parallax/ for the wonderful parallax effect
@@ -132,7 +120,7 @@
 	color:white;
 	font-family: "Recoleta";
 	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+	text-align: center;
 	.section-title{
 		font-size: 16px;
 		margin-top:10px;
@@ -146,6 +134,8 @@
 	.address{
 		text-decoration: none;
 		color:white;
+	}
+	&:after{
 
 	}
 }

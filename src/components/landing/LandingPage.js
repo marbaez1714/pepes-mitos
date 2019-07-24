@@ -16,10 +16,6 @@ export default function Menu(props) {
             Mex-Tex Since 1994
           </div>
         </div>
-        <div className='cactus'/>
-
-        <div className='lantern'/>
-
       </div>
       <div className="parallaxSection parallax bg1"/>
       <div className="section2 parallaxSection parallax"/>
@@ -38,8 +34,6 @@ export default function Menu(props) {
         </div>
         <div className='section-title'>Reservations & Information</div>
         <div><a className='address' href="tel:214-741-1901">214-741-1901</a></div>
-
-
       </div>
 
     </div>
