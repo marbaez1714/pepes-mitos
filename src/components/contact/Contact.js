@@ -17,7 +17,7 @@ const Location = (
   <React.Fragment>
     <div className='section-title'>Location</div>
     <div className="location">Downtown Dallas, deep in the heart of the historic Deep Ellum District</div>
-    <a href='https://goo.gl/maps/pEJBpcGrtMF4rEic8'>2911 Elm Street, Dallas, Texas 75226</a>
+    <a href='https://goo.gl/maps/pEJBpcGrtMF4rEic8' target="_blank">2911 Elm Street, Dallas, Texas 75226</a>
   </React.Fragment>
 )
 
@@ -35,7 +35,7 @@ export default function Contact(props) {
     // use map and maps objects
     let marker = new maps.Marker({position: center, map: map})
     let infowindow = new  maps.InfoWindow({
-      content: "<p class='map-name'>Pepe's & Mito's</p><a class='map-address' href='https://goo.gl/maps/pEJBpcGrtMF4rEic8'>2911 Elm St</a>"
+      content: "<p class='map-name'>Pepe's & Mito's</p><a class='map-address' href='https://goo.gl/maps/pEJBpcGrtMF4rEic8' target='_blank'>2911 Elm St</a>"
     });
     marker.addListener('click', function() {
       infowindow.open(map, marker);

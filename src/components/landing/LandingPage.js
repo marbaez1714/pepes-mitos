@@ -22,9 +22,9 @@ export default function Menu(props) {
       <div className="parallaxSection parallax bg2"/>
       <div className="section2 parallaxSection parallax"/>
       <div className="parallaxSection parallax bg3"/>
-      <div className="footer">
+      <footer className="footer">
         <div className="location-title">Location</div>
-        <a className="address" href='https://goo.gl/maps/pEJBpcGrtMF4rEic8'>2911 Elm Street, Dallas, Texas 75226</a>
+        <a className="address" href='https://goo.gl/maps/pEJBpcGrtMF4rEic8' target="_blank">2911 Elm Street, Dallas, Texas 75226</a>
         <div className='section-title'>Hours</div>
         <div className='hours'>
           <div>Mon. & Tue. {Pipe} 11am - 3pm</div>
@@ -34,7 +34,7 @@ export default function Menu(props) {
         </div>
         <div className='section-title'>Reservations & Information</div>
         <div><a className='address' href="tel:214-741-1901">214-741-1901</a></div>
-      </div>
+      </footer>
 
     </div>
 
