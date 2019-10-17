@@ -10,7 +10,7 @@ export default function Header(props) {
       <span className="headerTitle">Pepe's & Mito's</span>
       <div className="pm-badge"/>
       <button onClick={handleOpen} className="sidesheetButton">
-        <i class="fas fa-bars" />
+        <i className="fas fa-bars" />
       </button>
       <Sidesheet
         open={open}

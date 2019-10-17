@@ -17,7 +17,7 @@ const Location = (
   <React.Fragment>
     <div className='section-title'>Location</div>
     <div className="location">Downtown Dallas, deep in the heart of the historic Deep Ellum District</div>
-    <a href='https://goo.gl/maps/pEJBpcGrtMF4rEic8' target="_blank">2911 Elm Street, Dallas, Texas 75226</a>
+    <a href='https://goo.gl/maps/pEJBpcGrtMF4rEic8' target="_blank" rel="noopener noreferrer">2911 Elm Street, Dallas, Texas 75226</a>
   </React.Fragment>
 )
 

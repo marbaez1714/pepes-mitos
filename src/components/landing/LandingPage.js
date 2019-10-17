@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import './LandingPage.scss';
 
 
@@ -24,7 +24,7 @@ export default function Menu(props) {
       <div className="parallaxSection parallax bg3"/>
       <footer className="footer">
         <div className="location-title">Location</div>
-        <a className="address" href='https://goo.gl/maps/pEJBpcGrtMF4rEic8' target="_blank">2911 Elm Street, Dallas, Texas 75226</a>
+        <a className="address" href='https://goo.gl/maps/pEJBpcGrtMF4rEic8' target="_blank" rel="noopener noreferrer">2911 Elm Street, Dallas, Texas 75226</a>
         <div className='section-title'>Hours</div>
         <div className='hours'>
           <div>Mon. & Tue. {Pipe} 11am - 3pm</div>

@@ -18,7 +18,7 @@ function SideSheetContent(props) {
     <div className={`overlay ${open ? "open" : ""}`}>
       <div className="sheetContainer">
         <button className="closeButton" onClick={handleClose}>
-          <i class="fas fa-times" />
+          <i className="fas fa-times" />
         </button>
         <ul className="sideOptions">
           {links.map(link => (
