@@ -3,7 +3,7 @@
 .menu {
   background: #6f6f6f;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 100vh;
+  height: calc(100vh - 60px);
 }
 .menuItemWrapper {
   font-family: "Recoleta";
