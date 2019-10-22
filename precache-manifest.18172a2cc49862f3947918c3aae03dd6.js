@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d48c7828e2a1b833caf696d69c1da7c",
+    "revision": "12def0c983c359c27f25bb17e1ab56d1",
     "url": "/pepes-mitos/index.html"
   },
   {
-    "revision": "69c507324678915a0a14",
-    "url": "/pepes-mitos/static/css/main.b969e08c.chunk.css"
+    "revision": "7542798078673f533c1e",
+    "url": "/pepes-mitos/static/css/main.3c9f196c.chunk.css"
   },
   {
-    "revision": "5befffe3a991bddd59b1",
-    "url": "/pepes-mitos/static/js/2.d59f5404.chunk.js"
+    "revision": "1620bca58227d35dcf77",
+    "url": "/pepes-mitos/static/js/2.eec66561.chunk.js"
   },
   {
-    "revision": "69c507324678915a0a14",
-    "url": "/pepes-mitos/static/js/main.06e47a22.chunk.js"
+    "revision": "7542798078673f533c1e",
+    "url": "/pepes-mitos/static/js/main.d6dc57d6.chunk.js"
   },
   {
     "revision": "d8e3d3417ae38ac04844",
@@ -54,5 +54,29 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "96f58786b9141f0814dcc10c8ba76325",
     "url": "/pepes-mitos/static/media/pm.96f58786.png"
+  },
+  {
+    "revision": "2c710d6247c8c98923297a09c85a27b3",
+    "url": "/pepes-mitos/static/media/tour1.2c710d62.jpg"
+  },
+  {
+    "revision": "02f38be131c0c41e9ba8c64ef506d239",
+    "url": "/pepes-mitos/static/media/tour2.02f38be1.jpg"
+  },
+  {
+    "revision": "fbc004b929997a8987e5255ca37569ed",
+    "url": "/pepes-mitos/static/media/tour3.fbc004b9.jpg"
+  },
+  {
+    "revision": "7b65eefb35a48d451d498d99212a894c",
+    "url": "/pepes-mitos/static/media/tour4.7b65eefb.jpg"
+  },
+  {
+    "revision": "9c40a63f3fafe4de1a0d972db3e5b8a7",
+    "url": "/pepes-mitos/static/media/tour5.9c40a63f.jpg"
+  },
+  {
+    "revision": "d515ec39b59913bc45bd8689a22823b8",
+    "url": "/pepes-mitos/static/media/tour6.d515ec39.jpg"
   }
 ]);

@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/pepes-mitos/static/css/main.b969e08c.chunk.css",
-    "main.js": "/pepes-mitos/static/js/main.06e47a22.chunk.js",
-    "main.js.map": "/pepes-mitos/static/js/main.06e47a22.chunk.js.map",
+    "main.css": "/pepes-mitos/static/css/main.3c9f196c.chunk.css",
+    "main.js": "/pepes-mitos/static/js/main.d6dc57d6.chunk.js",
+    "main.js.map": "/pepes-mitos/static/js/main.d6dc57d6.chunk.js.map",
     "runtime~main.js": "/pepes-mitos/static/js/runtime~main.1ccdb5af.js",
     "runtime~main.js.map": "/pepes-mitos/static/js/runtime~main.1ccdb5af.js.map",
-    "static/js/2.d59f5404.chunk.js": "/pepes-mitos/static/js/2.d59f5404.chunk.js",
-    "static/js/2.d59f5404.chunk.js.map": "/pepes-mitos/static/js/2.d59f5404.chunk.js.map",
+    "static/js/2.eec66561.chunk.js": "/pepes-mitos/static/js/2.eec66561.chunk.js",
+    "static/js/2.eec66561.chunk.js.map": "/pepes-mitos/static/js/2.eec66561.chunk.js.map",
     "index.html": "/pepes-mitos/index.html",
-    "precache-manifest.f950791e6335b6e1be2e8bd26956c8f4.js": "/pepes-mitos/precache-manifest.f950791e6335b6e1be2e8bd26956c8f4.js",
+    "precache-manifest.18172a2cc49862f3947918c3aae03dd6.js": "/pepes-mitos/precache-manifest.18172a2cc49862f3947918c3aae03dd6.js",
     "service-worker.js": "/pepes-mitos/service-worker.js",
-    "static/css/main.b969e08c.chunk.css.map": "/pepes-mitos/static/css/main.b969e08c.chunk.css.map",
+    "static/css/main.3c9f196c.chunk.css.map": "/pepes-mitos/static/css/main.3c9f196c.chunk.css.map",
     "static/media/App.scss": "/pepes-mitos/static/media/RecoletaRegular.ac8f3b34.otf",
-    "static/media/LandingPage.scss": "/pepes-mitos/static/media/lined-paper-2.8fcc731b.png",
-    "static/media/Contact.scss": "/pepes-mitos/static/media/concrete-wall.0277c785.png",
+    "static/media/Tour.scss": "/pepes-mitos/static/media/lined-paper-2.8fcc731b.png",
     "static/media/guyhead.png": "/pepes-mitos/static/media/guyhead.7978d852.png",
-    "static/media/Header.scss": "/pepes-mitos/static/media/pm.96f58786.png"
+    "static/media/Header.scss": "/pepes-mitos/static/media/pm.96f58786.png",
+    "static/media/tour1.jpg": "/pepes-mitos/static/media/tour1.2c710d62.jpg",
+    "static/media/tour2.jpg": "/pepes-mitos/static/media/tour2.02f38be1.jpg",
+    "static/media/tour3.jpg": "/pepes-mitos/static/media/tour3.fbc004b9.jpg",
+    "static/media/tour4.jpg": "/pepes-mitos/static/media/tour4.7b65eefb.jpg",
+    "static/media/tour5.jpg": "/pepes-mitos/static/media/tour5.9c40a63f.jpg",
+    "static/media/tour6.jpg": "/pepes-mitos/static/media/tour6.d515ec39.jpg"
   }
 }
