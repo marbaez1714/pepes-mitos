@@ -1,131 +1,41 @@
 @import "../SharedStyles";
 
-.landingText {
+.tour-image {
+  margin: 5vw 5vw;
+  width: 90vw;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 25vh;
-  z-index: 2;
-}
-.landingTitle {
-  font-family: "Recoleta-Bold";
-  text-align: center;
-  font-size: 48px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.landingSubitle {
-  font-family: "Recoleta-Bold";
-  color: $orange;
-  text-align: center;
-  font-size: 24px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.tour-image {
-  margin: 5vw;
-  width: 90vw;
-}
-
-// credit to https://alligator.io/css/pure-css-parallax/ for the wonderful parallax effect
-.parallaxWrapper {
-  /* The height needs to be set to a fixed value for the effect to work.
-	 * 100vh is the full height of the viewport. */
-  height: 100vh;
-  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
-  overflow-x: hidden;
-  /* Enable scrolling on the page. */
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  scroll-behavior: smooth;
-  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
-  perspective: 2px;
-}
-.parallaxSection {
-  /* Needed for children to be absolutely positioned relative to the parent. */
-  position: relative;
-  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 75vh;
-  /* For text formatting. */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: $light;
-  &.parallax {
-    height: 40vmax;
-  }
-}
-.parallax::after {
-  /* Display and position the pseudo-element */
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  /* Move the pseudo-element back away from the camera,
-	 * then scale it back up to fill the viewport.
-	 * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-  transform: translateZ(-1px) scale(2.25);
-  /* Force the background image to fill the whole element. */
-  background-size: 100%;
-  /* Keep the image from overlapping sibling elements. */
-  z-index: -1;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.static {
-  padding: 20px;
-  background: $blue-dark;
-}
-.bg1::after {
-  background-image: url("../../images/background1-3.jpg");
-}
-.bg2::after {
-  background-image: url("../../images/background2-3.jpg");
-}
-.bg3::after {
-  background-image: url("../../images/background3-3.jpg");
-}
-.section1.section1 {
-  height: calc(100vh - 60px);
-  background-image: $gradient, url("../../images/brick-wall.png");
-  background-color: $brown;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.section2.section2 {
-  height: auto;
-  background-image: $gradient, url("../../images/brick-wall.png");
-  background-color: $dark;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  &.header {
-    height: 75px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: $pink;
-    background-image: $gradient, url("../../images/concrete-wall.png");
+  color: $brown;
+  background-image: $gradient, url("../../images/concrete-wall.png");
+
+  .title {
     font-family: "Recoleta-Bold";
+    text-align: center;
+    margin-bottom: 10px;
     font-size: 24px;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: $brown;
-    .title {
-      margin-left: 20px;
-      text-align: left;
-    }
-    &.yellow {
-      background-color: $yellow;
-    }
-    &.blue {
-      background-color: $blue;
-    }
-    &.orange {
-      background-color: $orange;
-    }
-    &.green {
-      background-color: $green;
-    }
+  }
+  &.yellow {
+    background-color: $yellow;
+  }
+  &.blue {
+    background-color: $blue;
+  }
+  &.orange {
+    background-color: $orange;
+  }
+  &.green {
+    background-color: $green;
+  }
+  &.red {
+    background-color: $red;
+  }
+  &.green-light {
+    background-color: $green-light;
   }
 }
 

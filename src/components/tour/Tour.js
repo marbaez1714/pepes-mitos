@@ -13,41 +13,29 @@ export default function Tour(props) {
   return (
     <div className="parallaxWrapper">
       {/* Section 1 */}
-      <div className="section2 parallaxSection parallax header yellow">
-        <p className="title">Restaurant</p>
+      <div className="section header yellow">
+        <img className="tour-image" src={Tour1} alt="restaurant front" />
       </div>
-      <div className="section2 parallaxSection parallax">
-        <img class="tour-image" src={Tour1} alt="restaurant front" />
-      </div>
-      <div className="parallaxSection parallax bg1" />
-
       {/* Section 2 */}
-      <div className="section2 parallaxSection parallax header blue">
-        <p className="title">Bar</p>
+      <div className="section header red">
+        <img className="tour-image" src={Tour6} alt="patio" />
       </div>
-      <div className="section2 parallaxSection parallax">
-        <img class="tour-image" src={Tour2} alt="bar front" />
-      </div>
-      <div className="parallaxSection parallax bg2" />
-
       {/* Section 3 */}
-      <div className="section2 parallaxSection parallax header orange">
-        <p className="title">Patio</p>
+      <div className="section header blue">
+        <img className="tour-image" src={Tour4} alt="restaurant back" />
       </div>
-      <div className="section2 parallaxSection parallax">
-        <img class="tour-image" src={Tour6} alt="patio" />
-      </div>
-      <div className="parallaxSection parallax bg1" />
-
       {/* Section 4 */}
-      <div className="section2 parallaxSection parallax header green">
-        <p className="title">Event Space</p>
+      <div className="section header orange">
+        <img className="tour-image" src={Tour2} alt="bar" />
       </div>
-      <div className="section2 parallaxSection parallax">
-        <img class="tour-image" src={Tour5} alt="event space" />
+      {/* Section 5 */}
+      <div className="section header green">
+        <img className="tour-image" src={Tour3} alt="bar close" />
       </div>
-      <div className="parallaxSection parallax bg3" />
-
+      {/* Section 6 */}
+      <div className="section header green-light">
+        <img className="tour-image" src={Tour5} alt="event space" />
+      </div>
       <footer className="footer">
         <div className="location-title">Location</div>
         <a
