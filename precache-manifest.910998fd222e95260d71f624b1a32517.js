@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12def0c983c359c27f25bb17e1ab56d1",
+    "revision": "b379c48316f42bc4d93813c969e40b23",
     "url": "/pepes-mitos/index.html"
   },
   {
-    "revision": "7542798078673f533c1e",
-    "url": "/pepes-mitos/static/css/main.3c9f196c.chunk.css"
+    "revision": "9332e233eded54bbbc74",
+    "url": "/pepes-mitos/static/css/main.4fe09396.chunk.css"
   },
   {
-    "revision": "1620bca58227d35dcf77",
-    "url": "/pepes-mitos/static/js/2.eec66561.chunk.js"
+    "revision": "51a60706287f5fceba72",
+    "url": "/pepes-mitos/static/js/2.355f4c08.chunk.js"
   },
   {
-    "revision": "7542798078673f533c1e",
-    "url": "/pepes-mitos/static/js/main.d6dc57d6.chunk.js"
+    "revision": "9332e233eded54bbbc74",
+    "url": "/pepes-mitos/static/js/main.4348bc6d.chunk.js"
   },
   {
     "revision": "d8e3d3417ae38ac04844",
@@ -56,24 +56,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pepes-mitos/static/media/pm.96f58786.png"
   },
   {
-    "revision": "2c710d6247c8c98923297a09c85a27b3",
-    "url": "/pepes-mitos/static/media/tour1.2c710d62.jpg"
+    "revision": "3f861fb696c8fd7d784fb8452b38b334",
+    "url": "/pepes-mitos/static/media/tour1.3f861fb6.jpg"
   },
   {
-    "revision": "02f38be131c0c41e9ba8c64ef506d239",
-    "url": "/pepes-mitos/static/media/tour2.02f38be1.jpg"
+    "revision": "f0dde02d7d82f7a1aea454f36fd8e868",
+    "url": "/pepes-mitos/static/media/tour2.f0dde02d.jpg"
   },
   {
-    "revision": "fbc004b929997a8987e5255ca37569ed",
-    "url": "/pepes-mitos/static/media/tour3.fbc004b9.jpg"
+    "revision": "c2b2e21f2baf98eae0b35d04f7308117",
+    "url": "/pepes-mitos/static/media/tour3.c2b2e21f.jpg"
   },
   {
-    "revision": "7b65eefb35a48d451d498d99212a894c",
-    "url": "/pepes-mitos/static/media/tour4.7b65eefb.jpg"
+    "revision": "2fbfdecff0fd12d660d11c8e9a9beda9",
+    "url": "/pepes-mitos/static/media/tour4.2fbfdecf.jpg"
   },
   {
-    "revision": "9c40a63f3fafe4de1a0d972db3e5b8a7",
-    "url": "/pepes-mitos/static/media/tour5.9c40a63f.jpg"
+    "revision": "9d426b5c2bccc64d38991b6d2e4b073b",
+    "url": "/pepes-mitos/static/media/tour5.9d426b5c.jpg"
   },
   {
     "revision": "d515ec39b59913bc45bd8689a22823b8",
