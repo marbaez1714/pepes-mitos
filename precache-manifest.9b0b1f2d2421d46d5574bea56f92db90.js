@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b379c48316f42bc4d93813c969e40b23",
+    "revision": "a0584c44dc0c53f3143b6e66fbf067a8",
     "url": "/pepes-mitos/index.html"
   },
   {
-    "revision": "9332e233eded54bbbc74",
-    "url": "/pepes-mitos/static/css/main.4fe09396.chunk.css"
+    "revision": "872c81be0f65648baf51",
+    "url": "/pepes-mitos/static/css/main.5f945164.chunk.css"
   },
   {
     "revision": "51a60706287f5fceba72",
     "url": "/pepes-mitos/static/js/2.355f4c08.chunk.js"
   },
   {
-    "revision": "9332e233eded54bbbc74",
+    "revision": "872c81be0f65648baf51",
     "url": "/pepes-mitos/static/js/main.4348bc6d.chunk.js"
   },
   {
