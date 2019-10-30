@@ -44,7 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: $light;
+  color: $brown;
   &.parallax {
     height: 40vmax;
   }
@@ -85,20 +85,20 @@
 .section1.section1 {
   height: calc(100vh - 60px);
   background-image: $gradient, url("../../images/brick-wall.png");
-  background-color: $brown;
+  background-color: $light;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .section2.section2 {
   height: 60vmax;
   background-image: $gradient, url("../../images/brick-wall.png");
-  background-color: $dark;
+  background-color: $light;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .footer.footer {
   letter-spacing: normal;
   padding: 20px 20px;
   background-image: $gradient, url("../../images/lined-paper-2.png");
-  background-color: $brown;
+  background-color: $blue-dark;
   color: white;
   font-family: "Recoleta";
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -117,6 +117,5 @@
     text-decoration: underline;
     color: $orange;
   }
-  &:after {
-  }
+  
 }
