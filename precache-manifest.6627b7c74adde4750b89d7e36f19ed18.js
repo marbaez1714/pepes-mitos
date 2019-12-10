@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0584c44dc0c53f3143b6e66fbf067a8",
+    "revision": "e12db4e7f5f22fd2849b053e75eb1122",
     "url": "/pepes-mitos/index.html"
   },
   {
-    "revision": "872c81be0f65648baf51",
+    "revision": "c25ada880700ff65e018",
     "url": "/pepes-mitos/static/css/main.5f945164.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pepes-mitos/static/js/2.355f4c08.chunk.js"
   },
   {
-    "revision": "872c81be0f65648baf51",
-    "url": "/pepes-mitos/static/js/main.4348bc6d.chunk.js"
+    "revision": "c25ada880700ff65e018",
+    "url": "/pepes-mitos/static/js/main.9600104a.chunk.js"
   },
   {
     "revision": "d8e3d3417ae38ac04844",
@@ -76,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pepes-mitos/static/media/tour5.9d426b5c.jpg"
   },
   {
-    "revision": "d515ec39b59913bc45bd8689a22823b8",
-    "url": "/pepes-mitos/static/media/tour6.d515ec39.jpg"
+    "revision": "f09ca1502f9429bb0f067df3e4bdef6d",
+    "url": "/pepes-mitos/static/media/tour6.f09ca150.jpg"
   }
 ]);

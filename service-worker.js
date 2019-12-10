@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pepes-mitos/precache-manifest.9b0b1f2d2421d46d5574bea56f92db90.js"
+  "/pepes-mitos/precache-manifest.6627b7c74adde4750b89d7e36f19ed18.js"
 );
 
 self.addEventListener('message', (event) => {

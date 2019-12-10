@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pepes-mitos/static/css/main.5f945164.chunk.css",
-    "main.js": "/pepes-mitos/static/js/main.4348bc6d.chunk.js",
-    "main.js.map": "/pepes-mitos/static/js/main.4348bc6d.chunk.js.map",
+    "main.js": "/pepes-mitos/static/js/main.9600104a.chunk.js",
+    "main.js.map": "/pepes-mitos/static/js/main.9600104a.chunk.js.map",
     "runtime~main.js": "/pepes-mitos/static/js/runtime~main.1ccdb5af.js",
     "runtime~main.js.map": "/pepes-mitos/static/js/runtime~main.1ccdb5af.js.map",
     "static/js/2.355f4c08.chunk.js": "/pepes-mitos/static/js/2.355f4c08.chunk.js",
     "static/js/2.355f4c08.chunk.js.map": "/pepes-mitos/static/js/2.355f4c08.chunk.js.map",
     "index.html": "/pepes-mitos/index.html",
-    "precache-manifest.9b0b1f2d2421d46d5574bea56f92db90.js": "/pepes-mitos/precache-manifest.9b0b1f2d2421d46d5574bea56f92db90.js",
+    "precache-manifest.6627b7c74adde4750b89d7e36f19ed18.js": "/pepes-mitos/precache-manifest.6627b7c74adde4750b89d7e36f19ed18.js",
     "service-worker.js": "/pepes-mitos/service-worker.js",
     "static/css/main.5f945164.chunk.css.map": "/pepes-mitos/static/css/main.5f945164.chunk.css.map",
     "static/media/App.scss": "/pepes-mitos/static/media/RecoletaRegular.ac8f3b34.otf",
@@ -21,6 +21,6 @@
     "static/media/tour3.jpg": "/pepes-mitos/static/media/tour3.c2b2e21f.jpg",
     "static/media/tour4.jpg": "/pepes-mitos/static/media/tour4.2fbfdecf.jpg",
     "static/media/tour5.jpg": "/pepes-mitos/static/media/tour5.9d426b5c.jpg",
-    "static/media/tour6.jpg": "/pepes-mitos/static/media/tour6.d515ec39.jpg"
+    "static/media/tour6.jpg": "/pepes-mitos/static/media/tour6.f09ca150.jpg"
   }
 }
